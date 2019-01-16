@@ -9,20 +9,20 @@ show the popular, top-rated movie and search movie by name
 - [How to](#Howto)
 
 ## Introduction
-show the popular, top-rated movie and search movie by name 
-
+This allows users to discover the most popular movies,Top rated movies.
+User also can search movies by name what they want.
 ## Features
-* Show the Temperature, humidity and pressure of today.
-* Display 5 more days forcast.
-* Select the city you want
+* Show the current popular movies
+* Show the top-rated movies
+* Search the movie you want
 
 ## Environments
 - Build Gradle : 3.2.1
 - Compile/ Target SDK version : 28
 
 ## HowTo
-- get the json data using HttpURLConnection from openWeathermap 
-- Analyze the data using JsonParser 
+- get the json data regarding to Movies from themoviedb.org Api using HttpUrlConnection.
+- 
 
 
 #### ScreenShot
