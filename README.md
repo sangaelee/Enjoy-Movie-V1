@@ -12,7 +12,7 @@ show the popular, top-rated movie and search movie by name
 This allows users to discover the most popular movies,Top rated movies.
 User also can search movies by name what they want.
 ## Features
-* Show the current popular movies
+* Show the current popular movies and details of that
 * Show the top-rated movies
 * Search the movie you want
 
@@ -21,8 +21,10 @@ User also can search movies by name what they want.
 - Compile/ Target SDK version : 28
 
 ## HowTo
-- get the json data regarding to Movies from themoviedb.org Api using HttpUrlConnection.
-- 
+- get the json movie data regarding to Movies from themoviedb.org Api with HttpUrlConnection under AsyncTask.
+- TabLayout is implemented with ViewPager. ViewPager is used to swipe through pages of
+data.
+- Using Picasso to load image into Image View.
 
 
 #### ScreenShot
